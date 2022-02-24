@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 40px 50px 20px 50px;
+  width: 900px;
+}
+
+/*#region Header*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header .info p {
+  font-size: 12px;
+}
+
+.content .title {
+  text-align: center;
+}
+
+/*#endregion Header*/
+
+/*#region Credit*/
+
+.ulIndex1 {
+  list-style: upper-roman;
+}
+
+.ulIndex2 {
+  list-style: decimal;
+}
+
+.ulIndex3,
+.ulIndex4,
+.ulIndex5 {
+  list-style: none;
+}
+
+.liItem1 {
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.liItem2 {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.liItem3 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.title1 {
+  font-size: 14px;
+}
+
+.header .info p {
+  font-size: 12px;
+}
+
+.content .title {
+  text-align: center;
+}
+
+#table,
+th,
+td {
+  border: 1px double black;
+  text-align: center;
+}
+
+/*#endregion Credit*/
+
+/*#region Footer*/
+
+.footer {
+  margin-top: 40px;
+}
+
+.ulFooter {
+  /* list-style: circle; */
+  margin-left: 40px;
+  padding-top: 10px;
+}
+
+.content .title {
+  text-align: center;
+}
+
+/*#endregion Footer*/
